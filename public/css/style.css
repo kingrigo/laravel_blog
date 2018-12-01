@@ -47,3 +47,20 @@ header.masthead h1 {
     padding-right: 0;
     padding-left: 0;
 }
+.post-action{
+    position:absolute;
+}
+.btn-borrar {
+    background: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    top: -20px;
+}
+.btn-editar {
+    background: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left:-55px;
+}

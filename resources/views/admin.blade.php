@@ -24,8 +24,8 @@
       <td>{{ $post->created_at}}</td>
       <td>{{ $post->aproved}}</td>
       <td>
-          <a href="{{ route('post', $post->id)}}" class="btn btn-primary">Ver</a>
-          <a href="{{ route('post.delete', $post->id)}}" class="btn btn-danger">Borrar</a>
+          <a href="{{ route('post', $post->id)}}" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+          <a href="{{ route('post.delete', $post->id)}}" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
           <a href="{{ route('admin.aprove', $post->id)}}" class="btn btn-success">Aprobar</a>
         </td>
     </tr>
